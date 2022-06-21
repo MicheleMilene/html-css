@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  background-color: rgb(152, 99, 157);
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 1rem 0 1rem;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+div {
+  text-align: center;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  padding:0 0.5rem 0 0.5rem;
+
+}
+nav ul li{
+        background-color:rgba(187, 168, 183, 0.5);
+        padding:0 0.5rem 0 0.5rem;
+        border:1px solid rgb(139, 101, 121);
+        font-weight: bold;
+}
+img{
+        padding: 0.7rem;
+}
